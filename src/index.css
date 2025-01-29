@@ -1,0 +1,301 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  background-color: #f59e0b;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #4f46e5, #6366f1);
+  color: white;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Skills Section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  padding: 20px;
+  background-color: rgb(27, 226, 200);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Projects Section */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  color: #4f46e5;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* GitHub Button */
+.github-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #333; /* GitHub Black */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.github-button:hover {
+  background-color: #444;
+}
+
+/* Contact Section */
+.contact-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  background-color: #4f46e5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: #3b82f6;
+}
+
+/* Resume Section */
+.resume-button {
+  padding: 10px 20px;
+  background-color: #f59e0b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.resume-button:hover {
+  background-color: #d97706;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: flex-start; /* Aligns items horizontally with the image on the left */
+  align-items: flex-start; /* Aligns items at the top, so we can control their margin */
+  padding: 100px 20px; /* Increases padding to move the entire header downward */
+  background: linear-gradient(to left top, blue, red);
+  
+  color: white;
+  width: 100%;
+}
+
+/* Image Section */
+.header-image {
+  margin-right: 30px; /* Space between the image and the text */
+  margin-top: 20px; /* Moves the image downward */
+  flex-shrink: 0; /* Ensures the image doesn’t shrink */
+}
+
+
+.header-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 10%; /* Adjust to bring the top (hair) into focus */
+  border: 6px solid white;
+}
+
+
+/* Text Section */
+.header-content {
+  flex: 1; /* Allows the text to take the remaining space */
+  text-align: left; /* Aligns the text to the left */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers text vertically */
+  margin-top: 30px; /* Moves the text downward */
+}
+
+.header-content h1 {
+  margin: 0; /* Removes default margin */
+  font-size: 2rem; /* Adjusts font size */
+}
+
+.header-content p {
+  margin: 10px 0 0; /* Adds spacing between the title and subtitle */
+  font-size: 1.2rem; /* Adjusts font size */
+}
+
+
+/* Section Styles - Full Width Background Colors */
+.colored-section {
+  width: 100%;
+  padding: 60px 20px; /* Adjust padding for spacing */
+  text-align: center;
+}
+
+/* Specific Background Colors for Each Section */
+.about-section {
+  background-color: #ffffff; /* Light Gray */
+}
+
+.skills-section {
+  background-color: #e3f2fd; /* Light Blue */
+}
+
+.resume-section {
+  background-color: #fff3cd; /* Light Yellow */
+}
+
+.projects-section {
+  background-color: #d1c4e9; /* Light Purple */
+}
+
+.contact-section {
+  background-color: #ffccbc; /* Light Coral */
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.resume-container {
+  text-align: center;
+  padding: 60px 20px;
+  width: 100vw;
+  background-color: #fff3cd; /* Light Yellow */
+}
+
+.resume-iframe {
+  width: 80%;
+  height: 600px; /* Adjust height as needed */
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
