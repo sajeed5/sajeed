@@ -12,10 +12,11 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
+     
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "vercel --prod"
+    "build": "react-scripts build",
+    "predeploy": "npm run build"
     
   },
   "eslintConfig": {
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
