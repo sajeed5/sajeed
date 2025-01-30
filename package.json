@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sajeed5.github.io/app",
+  
   "name": "newapp",
   "version": "0.1.0",
   "private": true,
@@ -13,10 +13,10 @@
   },
   "scripts": {
      
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build"
+   "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "vercel --prod"
     
   },
   "eslintConfig": {
