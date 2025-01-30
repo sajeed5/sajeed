@@ -6,13 +6,13 @@ const Projects = () => {
       title: 'Automated Car Parking System',
       description:
         'Developed a car parking system using OCR for license plate recognition. Integrated Fast2sms API for SMS booking notifications.',
-      github: 'https://github.com/yourgithub/automated-car-parking', // Add GitHub link here
+      github: 'https://github.com/SAJEED006/Automated-Parking-System-Using-Machine-Learning', // Add GitHub link here
     },
     {
-      title: 'Cloud-Based Exam Block Locator',
+      title: 'Search My Block During Exams',
       description:
         'Designed and deployed a website to assist students in locating exam blocks. Optimized performance using HTML, CSS, and JavaScript.',
-      github: 'https://github.com/yourgithub/exam-block-locator', // Add GitHub link here
+      github: 'https://blockfinder.vercel.app', // Add GitHub link here
     },
   ];
 
@@ -31,7 +31,7 @@ const Projects = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              View on GitHub
+              DEMO
             </a>
           </div>
         ))}
