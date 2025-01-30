@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sajeed/static/css/main.5267537d.css",
+    "main.js": "/sajeed/static/js/main.410c593c.js",
+    "static/js/488.0d53d4be.chunk.js": "/sajeed/static/js/488.0d53d4be.chunk.js",
+    "static/media/sajeed.JPG": "/sajeed/static/media/sajeed.1f0afab15fe5f2559cff.JPG",
+    "static/media/sajeedmalagi.pdf": "/sajeed/static/media/sajeedmalagi.240e1f73cddd2b12f571.pdf",
+    "index.html": "/sajeed/index.html",
+    "main.5267537d.css.map": "/sajeed/static/css/main.5267537d.css.map",
+    "main.410c593c.js.map": "/sajeed/static/js/main.410c593c.js.map",
+    "488.0d53d4be.chunk.js.map": "/sajeed/static/js/488.0d53d4be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5267537d.css",
+    "static/js/main.410c593c.js"
+  ]
+}
